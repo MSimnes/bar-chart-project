@@ -1,0 +1,24 @@
+#chartTitle {
+  color: red;
+  text-align: center;
+  font-size: 50px;
+}
+
+.barRow {
+  height: 30px;
+  width: 100%;
+}
+.dataLabel {
+  width: 20%;
+  font-size: 20px;
+}
+.bar {
+  color: blue;
+  width: 50%;
+  height: 100%;
+  border: 3px solid grey;
+}
+.y-axis {
+  border-top: 3px solid black;
+
+}

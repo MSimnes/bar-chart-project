@@ -9,18 +9,29 @@
   <title>Document</title>
 </head>
 <body>
-  <div class="container">
-    <header id= "chartTitle">Stinkiest Dogs</header>
-    <div class="barRow"><span class="dataLabel">Steven</span><div class="bar"></div></div>
-    <div class="barRow"><span class="dataLabel">Fido</span><div class="bar"></div></div>
-    <div class="barRow"><span class="dataLabel">Scruff</span><div class="bar"></div></div>
-    <div class="barRow"><span class="dataLabel">Rover</span><div class="bar"></div></div>
-    <div class="y-axis"></div>
+  <h1 class="title">Bar Chart</h1>
+  <div class="chartContainer">
+    <div class="container">
+      <ul class="dataList">
+        <li><span class="dataName">New York</span><div class="bar"></div></li>
+        <li><span class="dataName">Paris</span><div class="bar"></div></li>
+        <li><span class="dataName">Rome</span><div class="bar"></div></li>
+        <li><span class="dataName">Vancouver</span><div class="bar"></div></li>
+      </ul>
+    </div>
+      <ul class= "yMetrics">
+        <li class="metric">0</li>
+        <li class="metric">25</li>
+        <li class="metric">50</li>
+        <li class="metric">75</li>
+        <li class="metric">100</li>
+      </ul>
   </div>
   <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
   <script src="main.js"></script>
+  <script src="library.js"></script>
 </body>
 </html>
